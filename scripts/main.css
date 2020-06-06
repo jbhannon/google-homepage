@@ -28,6 +28,7 @@ main{
     width: 18px;
     margin: 13px 0 0 14px;
     opacity: .7;
+    float: left;
 }
 #search-button, #lucky-button {
     background-color: #f2f2f2;
@@ -161,7 +162,7 @@ header .nav-right a{
     background: -webkit-linear-gradient(top,#3c7ae4,#3f76d3);
 }
 #search-input {
-    display: flex;
+    display: block;
     flex: 100%;
     font: 16px arial,sans-serif;
     height: 34px !important;
@@ -171,4 +172,5 @@ header .nav-right a{
     margin: 5px 0 0 46px;
     outline: none;
     border: none;
+    width: 90%
 }
